@@ -1,0 +1,132 @@
+*{
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+}
+body{
+    opacity: 0.8;
+    background-image: url(todo.avif);
+    background-size: cover;
+    
+   
+
+}
+h1{
+
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgb(142, 142, 247);
+    margin-top: 30px;
+    
+}
+
+h3{
+    color: red;
+    animation-name: example;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    margin-top: 30px;
+    
+}
+@keyframes example {
+    from{
+        color: red;
+        visibility: visible;
+    }
+    to{
+        color:orangered;
+    }
+    
+    
+}
+
+.list{
+    width: 500px;
+    border: 2px black solid;
+    box-shadow: 4px 4px 4px deeppink;
+    background-color:rgb(253, 221, 227);
+    margin-top: 30px;
+    
+    
+}
+.listo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+input{
+    width: 60%;
+    background-color:rgb(245, 188, 138);
+    box-shadow: 3px 3px 3px black;
+    margin-top: 30px;
+    
+    
+}
+hr{
+    margin-top: 30px;
+    
+}
+ul{
+    list-style-type:disc;
+    margin-top: 30px;
+    
+    font-size: 20px;
+    font-weight: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul li{
+    text-align: justify;
+    /* background-color: dimgrey; */
+    
+}
+
+ul li.cone{
+    text-decoration: line-through;
+    color:rgb(150, 70, 39);
+}
+ul li span{
+    text-align: end;
+    padding-left: 10px;
+
+}
+button{
+    background-color: rgb(229, 67, 8);
+    box-shadow: 3px 3px 3px black;
+    margin-top: 30px;
+    
+}
+.listoo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.working{
+    width: 500px;
+    border: 2px black solid;
+    box-shadow: 3px 3px 3px green;
+    background-color:rgb(253, 221, 227);
+    margin-top: 30px;
+    
+    
+}
+.working ul{
+    list-style-type:decimal-leading-zero;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 30px;
+    
+
+}
+h2{
+    text-decoration:underline;
+}
+ ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.listcontainer li{
+    background-color: rgb(154, 152, 152);
+}
+
+
+
+
